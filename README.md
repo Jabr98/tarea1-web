@@ -38,4 +38,5 @@ tarea1-web/
 ## 🚀 Visualización
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/tarea1-web.git
+   git clone https://github.com/Jabr98/tarea1-web.git
+
