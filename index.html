@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación Personal - Jefferson Bedoya</title>
+    <!-- Enlace al archivo CSS para los estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Encabezado con nombre y menú de navegación -->
+    <header>
+        <h1>Jefferson Bedoya</h1>
+        <nav>
+            <!-- Menú de navegación interno para desplazarse a las secciones -->
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <!-- Sección sobre mí -->
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <!-- Imagen con descripción para accesibilidad -->
+            <img src="img/foto-perfil.jpg" alt="Foto de Jefferson Bedoya sonriendo" width="200">
+            <p>Soy un desarrollador web apasionado por crear aplicaciones accesibles y fáciles de usar. 
+            Este sitio fue diseñado para presentar mi perfil profesional a reclutadores y empresas.</p>
+        </section>
+
+        <!-- Sección de habilidades -->
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML5 y CSS3</li>
+                <li>JavaScript</li>
+                <li>Diseño responsivo</li>
+            </ul>
+        </section>
+
+        <!-- Artículo adicional con un dato curioso -->
+        <article>
+            <h2>Dato curioso</h2>
+            <p>En mi tiempo libre disfruto aprender sobre UX/UI y fotografía digital.</p>
+        </article>
+    </main>
+
+    <!-- Pie de página con formulario de contacto -->
+    <footer id="contacto">
+        <h2>Contacto</h2>
+        <!-- Formulario accesible -->
+        <form>
+            <!-- Cada campo tiene su etiqueta label -->
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo:</label>
+            <input type="email" id="email" name="email" required>
+
+            <!-- Botón de envío con atributo aria-label -->
+            <button type="submit" aria-label="Enviar formulario de contacto">Enviar</button>
+        </form>
+        <p>© 2025 Jefferson Bedoya</p>
+    </footer>
+</body>
+</html>

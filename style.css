@@ -1,0 +1,133 @@
+/* ===============================
+   Estilos globales
+   =============================== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Fondo claro para el contenido */
+    color: #333; /* Texto oscuro para buena legibilidad */
+}
+
+/* ===============================
+   Encabezado y navegación
+   =============================== */
+header {
+    background-color: #007bff; /* Azul principal */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Efecto al pasar el mouse */
+}
+
+/* ===============================
+   Contenido principal
+   =============================== */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #007bff;
+}
+
+/* Imagen circular y centrada */
+img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%; /* Hace la imagen redonda */
+    border: 3px solid #007bff; /* Borde azul */
+}
+
+/* ===============================
+   Pie de página y formulario
+   =============================== */
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Estilos del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    width: 250px;
+}
+
+button {
+    background-color: white;
+    color: #007bff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+/* ===============================
+   Ajustes responsivos
+   =============================== */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    input {
+        width: 100%;
+    }
+}
